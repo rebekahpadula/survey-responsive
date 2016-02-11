@@ -107,15 +107,19 @@ ul {
 		float: left;
 		width: 50%;
 		text-align: center;
-	}
 
-	select {
-		text-align: center;
 	}
 
 	.column-3 {
-		clear: both;
+		display: block;
 		width: 100%;
+		text-align: left;
+
+	}
+
+	.cf {
+		content: '';
+		clear: both;
 	}
 }
 
@@ -133,7 +137,7 @@ ul {
 		clear: none;
 		float: left;
 		width: 33.333%;
-
+	
 	}
 
 
